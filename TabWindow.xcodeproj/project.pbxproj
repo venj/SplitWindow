@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25334F391C1181E300B79D21 /* MySplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25334F381C1181E300B79D21 /* MySplitViewController.swift */; };
+		25650BD01C117330006F8F3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25650BCF1C117330006F8F3E /* AppDelegate.swift */; };
+		25650BD41C117330006F8F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25650BD31C117330006F8F3E /* Assets.xcassets */; };
+		25650BD71C117330006F8F3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25650BD51C117330006F8F3E /* Main.storyboard */; };
+		25650BE11C117407006F8F3E /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25650BE01C117407006F8F3E /* MainWindowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25334F381C1181E300B79D21 /* MySplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySplitViewController.swift; sourceTree = "<group>"; };
+		25650BCC1C117330006F8F3E /* TabWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25650BCF1C117330006F8F3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25650BD31C117330006F8F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25650BD61C117330006F8F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25650BD81C117330006F8F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25650BE01C117407006F8F3E /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25650BC91C117330006F8F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25650BC31C117330006F8F3E = {
+			isa = PBXGroup;
+			children = (
+				25650BCE1C117330006F8F3E /* TabWindow */,
+				25650BCD1C117330006F8F3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25650BCD1C117330006F8F3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25650BCC1C117330006F8F3E /* TabWindow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25650BCE1C117330006F8F3E /* TabWindow */ = {
+			isa = PBXGroup;
+			children = (
+				25650BCF1C117330006F8F3E /* AppDelegate.swift */,
+				25650BE01C117407006F8F3E /* MainWindowController.swift */,
+				25334F381C1181E300B79D21 /* MySplitViewController.swift */,
+				25650BD31C117330006F8F3E /* Assets.xcassets */,
+				25650BD51C117330006F8F3E /* Main.storyboard */,
+				25650BD81C117330006F8F3E /* Info.plist */,
+			);
+			path = TabWindow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25650BCB1C117330006F8F3E /* TabWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25650BDB1C117330006F8F3E /* Build configuration list for PBXNativeTarget "TabWindow" */;
+			buildPhases = (
+				25650BC81C117330006F8F3E /* Sources */,
+				25650BC91C117330006F8F3E /* Frameworks */,
+				25650BCA1C117330006F8F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabWindow;
+			productName = TabWindow;
+			productReference = 25650BCC1C117330006F8F3E /* TabWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25650BC41C117330006F8F3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "朱文杰";
+				TargetAttributes = {
+					25650BCB1C117330006F8F3E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 25650BC71C117330006F8F3E /* Build configuration list for PBXProject "TabWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25650BC31C117330006F8F3E;
+			productRefGroup = 25650BCD1C117330006F8F3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25650BCB1C117330006F8F3E /* TabWindow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25650BCA1C117330006F8F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25650BD41C117330006F8F3E /* Assets.xcassets in Resources */,
+				25650BD71C117330006F8F3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25650BC81C117330006F8F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25650BD01C117330006F8F3E /* AppDelegate.swift in Sources */,
+				25650BE11C117407006F8F3E /* MainWindowController.swift in Sources */,
+				25334F391C1181E300B79D21 /* MySplitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25650BD51C117330006F8F3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25650BD61C117330006F8F3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25650BD91C117330006F8F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25650BDA1C117330006F8F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25650BDC1C117330006F8F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TabWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.venj.TabWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25650BDD1C117330006F8F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TabWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.venj.TabWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25650BC71C117330006F8F3E /* Build configuration list for PBXProject "TabWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25650BD91C117330006F8F3E /* Debug */,
+				25650BDA1C117330006F8F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25650BDB1C117330006F8F3E /* Build configuration list for PBXNativeTarget "TabWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25650BDC1C117330006F8F3E /* Debug */,
+				25650BDD1C117330006F8F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25650BC41C117330006F8F3E /* Project object */;
+}
